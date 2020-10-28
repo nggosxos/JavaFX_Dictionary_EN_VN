@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.text.Font?>
+
+<TabPane tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controller.TextTransController">
+    <Tab onSelectionChanged="#onTabEn2VN" text="Anh - Việt">
+        <SplitPane dividerPositions="0.5" orientation="VERTICAL">
+            <TextArea fx:id="enText2Trans" onKeyPressed="#onKeyPressEn2Vn" promptText="Văn bản tiếng Anh" wrapText="true">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </TextArea>
+            <TextArea fx:id="enVnText" editable="false" onKeyPressed="#onKeyPressEn2Vn" promptText="Văn bản tiêng Việt" wrapText="true">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </TextArea>
+        </SplitPane>
+    </Tab>
+    <Tab onSelectionChanged="#onTabVN2En" text="Việt - Anh">
+        <SplitPane dividerPositions="0.5" orientation="VERTICAL">
+            <TextArea fx:id="vnText2Trans" onKeyPressed="#onKeyPressVn2En" promptText="Văn bản tiếng Việt" wrapText="true">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </TextArea>
+            <TextArea fx:id="vnEnText" editable="false" onKeyPressed="#onKeyPressVn2En" promptText="Văn bản tiêng Anh" wrapText="true">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </TextArea>
+        </SplitPane>
+    </Tab>
+</TabPane>

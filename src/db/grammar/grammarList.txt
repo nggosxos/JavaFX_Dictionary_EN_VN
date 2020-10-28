@@ -1,0 +1,12 @@
+1,Thì Hiện Tại Đơn,presentTense_1.txt
+2,Thì Hiện Tại Tiếp Diễn,presentTense_2.txt
+3,Thì Hiện Tại Hoàn Thành,presentTense_3.txt
+4,Thì Hiện Tại Hoàn Thành Tiếp Diễn,presentTense_4.txt
+5,Thì Quá Khứ Đơn,pastTense_1.txt
+6,Thì Quá Khứ Tiếp Diễn,pastTense_2.txt
+7,Thì Quá Khứ Hoàn Thành,pastTense_3.txt
+8,Thì Quá Khứ Hoàn Thành Tiếp Diễn,pastTense_4.txt
+9,Thì Tương Lai Đơn,futureTense_1.txt
+10,Thì Tương Lai Tiếp Diễn,futureTense_2.txt
+11,Thì Tương Lai Hoàn Thành,futureTense_3.txt
+12,Thì Tương Lai Hoàn Thành Tiếp Diễn,futureTense_4.txt

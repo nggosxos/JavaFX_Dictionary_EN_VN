@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.3234" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+           minWidth="-Infinity" prefHeight="450.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/11.0.1"
+           xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.controller.GrammarController">
+   <AnchorPane prefHeight="200.0" prefWidth="200.0">
+      <Label alignment="CENTER" layoutX="6.0" layoutY="14.0" prefHeight="27.0" prefWidth="214.0"
+             style="-fx-border-color: #A9A9A9; -fx-border-radius: 20; -fx-background-radius: 20; -fx-text-fill: #A9A9A9;"
+             text="Ngữ pháp cơ bản"/>
+      <ListView fx:id="listView" layoutX="5.0" layoutY="45.0" onKeyReleased="#onKeyRelease"
+                onMouseClicked="#onMouseClicked" prefWidth="214.0"/>
+   </AnchorPane>
+   <TextArea fx:id="textArea" editable="false" wrapText="true">
+      <font>
+         <Font size="14.0"/>
+      </font>
+   </TextArea>
+</SplitPane>
